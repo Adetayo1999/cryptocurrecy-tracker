@@ -4,17 +4,6 @@ import { fetchCryptos } from "../../store/reducers/crypto";
 import { getCurrency } from "../../utils/currency-converter";
 import { NumberFormatter } from "../../utils/number-converter";
 
-/* This example requires Tailwind CSS v2.0+ */
-const people = [
-  {
-    name: "Lindsay Walton",
-    title: "Front-end Developer",
-    email: "lindsay.walton@example.com",
-    role: "Member",
-  },
-  // More people...
-];
-
 export default function TrackerTable() {
   const dispatch = useAppDispatch();
   useEffect(() => {
